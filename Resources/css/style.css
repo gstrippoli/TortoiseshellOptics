@@ -1,0 +1,148 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  line-height: 1.4rem;
+}
+
+/* Header Section */
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  padding-left: 2rem;
+}
+
+img {
+  border-style: none;
+  height: 1.5rem;
+}
+
+.container span {
+  color: white;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  color: white;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.responsive-menu {
+  display: none;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+/* Interior Banner */
+.flex {
+  display: flex;
+}
+.banner {
+  display: inline-block;
+  background-color: white;
+  padding: .75rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2.4rem;
+  line-height: 2.4rem;
+}
+
+.banner h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+
+ /* Services Section */
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  flex-direction: column;
+}
+
+.services img {
+  margin-bottom: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: center;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  padding: 1.25rem 0.5rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: azure;
+}
+
+footer img {
+  padding: 4rem 1rem 4rem 3rem;
+}
+
+footer span {
+  color: black !important;
+}
